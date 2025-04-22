@@ -6,6 +6,24 @@ public class CalculosMatematicos {
 
     public CalculosMatematicos() {
     }
+    
+    public void calcularMCD(int numA, int numB) {
+int a = numA, b = numB;
+
+while (b != 0) {
+
+int temp = b;
+
+b = a % b;
+
+a = temp;
+
+}
+
+System.out.println("El máximo común divisor de "+numA+ " y "+numB+" es " + a);
+
+}
+
 
     //No entiendo la lógica del código, la parte más dificil hasta ahora personalmente.
     //Me falla la lógica del código
