@@ -8,6 +8,7 @@ public class CalculosMatematicos {
     }
 
     //No entiendo la lógica del código, la parte más dificil hasta ahora personalmente.
+    //Me falla la lógica del código
     public void calculosRefactorizados(int numero) {
 
         // Calculamos los factoriales primos
